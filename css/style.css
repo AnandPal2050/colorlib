@@ -28,11 +28,28 @@ span i{
 border: none;
 }
 
-/*************************Ads-Placement***********************/
+/*******************************Ads-Placement**************************/
 
 .ads{
   margin: 50px auto;
 }
 .ads img{
   margin: 0 auto;
+}
+
+
+/********************************Navigation*****************************/
+.navigation ul{
+  margin-top: 22px;
+}
+.navigation ul li{
+  text-transform: uppercase;
+
+}
+.navigation ul li a{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
 }
