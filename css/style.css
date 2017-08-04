@@ -56,9 +56,17 @@ border: none;
 }
 
 /*************************Colors**********************************/
+.content{
+  margin-top: 30px;
+}
 .colors{
   border: 1px solid #ccc;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 100%;
   height: 200px;
+   box-shadow: 1px 2px 10px 0px #ccc;
+}
+.colors:hover{
+
+
 }
