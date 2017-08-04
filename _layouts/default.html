@@ -6,11 +6,29 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
   </head>
   <body>
+  <header>
+    {% include header.html %}
+  </header>
 
-{% include header.html %}
+  <div class="ads-area">
+    {% include ads.html %}
+  </div>
 
+  <div class="nav-area">
+    {% include nav.html %}
+  </div>
+
+<div class="sidebar">
+  {% include sidebar.html %}
+</div>
+
+<div class="content">
 {{content}}
+</div>
 
-
+ <footer>
+   {% include footer.html%}
+ </footer>
+ <script src="{{site.baseurl}}/js/main.js" charset="utf-8"></script>
   </body>
 </html>
