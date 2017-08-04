@@ -6,7 +6,33 @@ body{
   width: 100%;
   background-color: #fff;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
-header{
 
+/**************************Header*********************************/
+
+.header{
+  margin-top: 60px;
+}
+.input-group,input{
+  height: 48px !important;
+  box-shadow: -1px 4px 20px 3px #ccc;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  font-size: 16px !important;
+}
+span i{
+  color:#f1c40f;
+}
+.btn{
+border: none;
+}
+
+/*************************Ads-Placement***********************/
+
+.ads{
+  margin: 50px auto;
+}
+.ads img{
+  margin: 0 auto;
 }
