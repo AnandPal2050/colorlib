@@ -1,4 +1,5 @@
 markdown: redcarpet
 exclude: ['README.md']
 baseurl: /colorlib
+permalink: pretty
 localhost: 4000
