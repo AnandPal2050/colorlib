@@ -21,20 +21,24 @@ body{
   font-weight: 600;
   font-size: 16px !important;
   font-family: 'Poppins', sans-serif;
+  border-color: #fff !important;
 }
 span i{
   color:#f1c40f;
 }
 .btn{
-border: none;
+border: none !important;
+
 }
 
 /*******************************Ads-Placement**************************/
 
 .ads{
+  width: 100%;
   margin: 50px auto;
 }
 .ads img{
+  width: 100%;
   margin: 0 auto;
 }
 
