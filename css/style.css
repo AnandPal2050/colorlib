@@ -105,7 +105,6 @@ border: none;
     height: 200px;
     background-color: #fff;
     color:rgb(60, 97, 179);
-    border: 1px solid #ccc;
     border-radius: 2px;
     text-align: center;
     padding: 20px;
@@ -117,7 +116,8 @@ border: none;
     font-family:'Poppins', sans-serif;
     letter-spacing: 0.3px;
     font-weight: 200;
-
+    border-radius:2px;
+    box-shadow: 0px 0px 5px #ccc;
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
     transition: opacity 1s;
@@ -136,5 +136,18 @@ border: none;
  margin-left: -5px;
  border-width: 5px;
  border-style: solid;
- border-color: #f1c40f transparent transparent transparent;
+ border-color: black transparent transparent transparent;
+}
+
+.tooltiptext a{
+  border-bottom:1px solid #ccc;
+  color: #ccc;
+  text-transform: capitalize;
+}
+.tooltiptext h3{
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  text-transform:capitalize;
+  color: #ccc;
+  font-weight: 400;
 }
