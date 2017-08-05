@@ -7,19 +7,35 @@ layout: default
 
 
     <div class="row">
+
       <div class="col-lg-3 col-md-3 col-sm-3">
-      <div class="colors thumbnail" style="background-color :#1abc9c;" onclick="copyToClipboard('.hex')">
+      <div class="colors thumbnail" style="background-color :#1abc9c;" onclick="copyToClipboard('#color1')">
         <span class="tooltiptext"><h3><a href="#">Mountain Meadow</a></h3>
           <br>
-          <p class="hex">#1abc9c</p>
+          <p id="color1">#1abc9c</p>
           <br>
           <p>rgb(26, 188, 156)</p>
         </span>
+        <div class="copy">
+          <p class="text"><a>copy</a></p>
+        </div>
       </div>
       </div>
+
       <div class="col-lg-3 col-md-3 col-sm-3">
-        <div class="colors thumbnail" style="background-color :#2ecc71;"></div>
+        <div class="colors thumbnail" style="background-color :#2ecc71;" onclick="copyToClipboard('#color2')">
+          <span class="tooltiptext"><h3><a href="#">Shamrock</a></h3>
+            <br>
+            <p id="color2">#2ecc71</p>
+            <br>
+            <p>rgb(46, 204, 113)</p>
+          </span>
+          <div class="copy">
+            <p class="text"><a>copy</a></p>
+          </div>
+        </div>
       </div>
+
       <div class="col-lg-3 col-md-3 col-sm-3">
         <div class="colors thumbnail" style="background-color :#3498db;"></div>
       </div>

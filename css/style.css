@@ -21,14 +21,9 @@ body{
   font-weight: 600;
   font-size: 16px !important;
   font-family: 'Poppins', sans-serif;
-  border-color: #fff !important;
 }
 span i{
   color:#f1c40f;
-}
-.btn{
-border: none !important;
-
 }
 
 /*******************************Ads-Placement**************************/
@@ -68,40 +63,9 @@ border: none !important;
   margin-top: 30px;
   width: 100%;
   height: 200px;
-   box-shadow: 1px 2px 10px 0px #ccc;
+  box-shadow: 1px 2px 10px 0px #ccc;
+  cursor: pointer;
 }
-
-/***************************footer*********************************/
-.footer{
-  margin-top: 100px;
-  background-color: #f7f7f7;
-  font-family:'Poppins', sans-serif;
-}
-.footer h3{
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: 28px;
-  letter-spacing: 0.3px;
-  text-transform:capitalize;
-  color: #ccc;
-  font-weight: 400;
-}
-.social-links ul{
-  list-style-type: none;
-}
-.social-links ul li{
-  display: inline;
-  position: relative;
-  right: 8px;
-}
-.social-links ul li a{
-  font-size: 22px;
-  margin-left: 26px;
-}
-.social-links ul li a:hover{
-  color:#f1c40f;
-}
-
 
 .colors .tooltiptext {
     visibility: hidden;
@@ -156,4 +120,70 @@ border: none !important;
   font-weight: 400;
 }
 
-/****************************************/
+/***************************footer*********************************/
+.footer{
+  margin-top: 60px;
+  background-color: #f7f7f7;
+  font-family:'Poppins', sans-serif;
+}
+.footer h3{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 0.3px;
+  text-transform:capitalize;
+  color: #ccc;
+  font-weight: 400;
+}
+.social-links ul{
+  list-style-type: none;
+}
+.social-links ul li{
+  display: inline;
+  position: relative;
+  right: 8px;
+}
+.social-links ul li a{
+  font-size: 22px;
+  margin-left: 26px;
+}
+.social-links ul li a:hover{
+  color:#f1c40f;
+}
+
+
+/**************copy**************************/
+
+
+.copy {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.colors:hover .copy {
+  opacity: 1;
+}
+
+.text {
+  border: 2px solid #fff;
+  color: #fff;
+  font-family:'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 15px;
+}
+.text a{
+  color: #fff;
+}
+.text a:hover{
+  text-decoration:none;
+  color:#fff;
+}
