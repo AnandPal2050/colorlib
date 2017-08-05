@@ -97,3 +97,44 @@ border: none;
 .social-links ul li a:hover{
   color:#f1c40f;
 }
+
+
+.colors .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    color:rgb(60, 97, 179);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 30%;
+    margin-left: -60px;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.colors:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.colors .tooltiptext::after {
+  content: " ";
+ position: absolute;
+ top: 100%; /* At the bottom of the tooltip */
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #f1c40f transparent transparent transparent;
+}

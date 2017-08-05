@@ -6,4 +6,7 @@ $('input').on('click',function() {
     $('.btn').css('border','none');
 });
 
+
+
+
 });
