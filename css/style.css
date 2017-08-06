@@ -117,9 +117,10 @@ span i {
 }
 
 .tooltiptext a {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1.3px solid #ccc;
   color: #ccc;
   text-transform: capitalize;
+  padding-bottom: 3px;
 }
 
 .tooltiptext h3 {
