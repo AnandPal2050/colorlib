@@ -6,7 +6,6 @@ function copyToClipboard(element) {
   $temp.val($(element).text()).select();
   document.execCommand("copy");
   $temp.remove();
-  var getId = $(element).attr('id');
   $('.text').html('copied');
   setTimeout("location.reload(true);",1000);
 }
