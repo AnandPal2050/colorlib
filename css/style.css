@@ -19,7 +19,6 @@ body {
   margin: 0 auto;
 }
 
-
 /********************************Navigation*****************************/
 
 .navigation ul {
@@ -124,7 +123,7 @@ span p {
 }
 
 .footer h3 {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 20px;
   font-size: 28px;
   letter-spacing: 0.3px;
