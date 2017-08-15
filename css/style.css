@@ -144,10 +144,7 @@ span p {
 
 .social-links ul li a {
   font-size: 22px;
-  margin-left: 26px;
-}
-
-.social-links ul li a:hover {
+  margin-left: 20px;
   color: #f1c40f;
 }
 
